@@ -1,13 +1,12 @@
+const body=document.querySelector("body");
 const images=["0.jpg","1.jpg","2.jpg"];
 
 const chosenImage=images[Math.floor(Math.random()*images.length)];
 
 console.log(chosenImage);
 
-const bgImage=document.createElement("img");
+body.style.backgroundImage='url('+chosenImage+')'; 
 
-bgImage.src=chosenImage;
 
-console.log(bgImage);
 
-document.body.appendChild(bgImage);     //appendChild->body에 html추가
+   
