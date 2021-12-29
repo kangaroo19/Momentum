@@ -4,3 +4,23 @@
 #todo-input{
     width:185px;
 }
+#greeting,#login-form{
+    text-align: right;
+}
+#clock{
+    font-size:5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+#weather{
+    text-align: center;
+    font-size:2rem;
+}
+#todo-input{
+    display: block;
+    margin:0 auto;
+    align-items: center;
+}
+#todo-list{
+    
+}

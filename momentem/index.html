@@ -1,4 +1,5 @@
-
+<!-- html id,class 값은 무조건 소문자로 하기 -->
+<!-- 자바스크립트는 카멜표기법으로 하기 -->
 
 <!DOCTYPE html>
 <html>
@@ -19,12 +20,18 @@
 
     </form>
     <h1 id="greeting" class="hidden"></h1>
-    <h2 id="clock">00:00:00</h2>
+    <h1 id="clock">00:00:00</h1>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
     <!-- TO-DO List -->
-    <form id="todo-form">
-        <input id="todo-input" type="text" placeholder="Write a TO DO and press enter">
-    </form>
-    <ul id="todo-list"></ul>
+    <div id="list">
+        <form id="todo-form">
+            <input id="todo-input" type="text" placeholder="Write a TO DO and press enter">
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
     <!--  -->
 
     <div id="quote">
@@ -32,10 +39,7 @@
         <span></span>
     </div>
 
-    <div id="weather">
-        <span></span>
-        <span></span>
-    </div>
+ 
 
     <script src="quote.js"></script>
     <script src="app.js"></script>
