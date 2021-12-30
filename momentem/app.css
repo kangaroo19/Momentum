@@ -1,0 +1,10 @@
+#login-form{
+    position: fixed;
+    right:10px;
+    top:10px;
+}
+#logout-form{
+    position: fixed;
+    right:10px;
+    top:10px;
+}

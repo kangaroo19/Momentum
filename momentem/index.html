@@ -1,4 +1,4 @@
-<!-- html id,class 값은 무조건 소문자로 하기 -->
+<!-- html id,class 값은 무조건 소문자로 하기 띄어쓰기 -로 표시 -->
 <!-- 자바스크립트는 카멜표기법으로 하기 -->
 
 <!DOCTYPE html>
@@ -6,20 +6,23 @@
 <head>
     <title>Momentum</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <form class="hidden" id="login-form">
-        <input type="text"
+    <form id="login-form">
+        <input id="login-input" 
+        type="text"
         required
-        maxlength="15"
-        placeholder="what is your name">
-        <button>Log in</button>
-        
-
-        
-
+        placeholder="type your name">
+        <input id="login-button" type="submit" value="login">
     </form>
-    <h1 id="greeting" class="hidden"></h1>
+    <form id="logout-form">
+        <span id="greeting" class="hidden"></span>
+        <input id="logout-button" class="hidden" type="submit" value="logout">
+    </form>
+    
+
+
     <h1 id="clock">00:00:00</h1>
     <div id="weather">
         <span></span>
@@ -44,8 +47,8 @@
     <script src="quote.js"></script>
     <script src="app.js"></script>
     <script src="clock.js"></script>
-    <script src="background.js"></script>
+    <!-- <script src="background.js"></script> -->
     <script src="todo.js"></script>
-    <script src="weather.js"></script>
+    <!-- <script src="weather.js"></script> -->
 </body>
 </html>
