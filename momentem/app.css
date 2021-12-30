@@ -8,3 +8,28 @@
     right:10px;
     top:10px;
 }
+#login-button,#logout-button{
+    color:black;
+    background-color:white;
+    opacity: 0.5;
+    width:66px;
+    height:27px;
+    border-radius: 5px;
+    font-family: 'NanumSquareRound';
+}
+#greeting{
+    
+}
+
+#login-button:hover{
+    opacity: 0.8;
+}
+#logout-button:hover{
+    opacity: 0.8;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

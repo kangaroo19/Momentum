@@ -13,7 +13,7 @@ function loginButtonClick(event){
    const typedName=loginInput.value;
    localStorage.setItem("username",typedName);
    greeting.classList.remove("hidden");
-   greeting.innerText=typedName;
+   greeting.innerText="Hello "+typedName;
    logoutButton.classList.remove("hidden");
 }
 
@@ -28,7 +28,7 @@ function logoutButtonClick(event){
 if(savedName!=null){ //저장된 이름 있을떄
    loginForm.classList.add("hidden");
    greeting.classList.remove("hidden");
-   greeting.innerText=savedName;
+   greeting.innerText="Hello "+savedName;
    logoutButton.classList.remove("hidden");
 }
 else{
