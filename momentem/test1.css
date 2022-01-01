@@ -7,7 +7,27 @@ body{
     animation: flicker 1.5s infinite alternate;
     color: #fff;
   }
-
+#horizon{
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    color:white;
+    transform: scale(2);
+    transition: all 1s ease;
+    animation: scrollText 1s infinite linear;
+}
+@keyframes scrollText {
+    from   { transform: translateX(0%); }
+    to { transform: translateX(-50%); }
+  }
 /* @keyframes flicker { */
     
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
