@@ -1,3 +1,14 @@
 #todo-list{
     color:white;
+
+ 
+}
+li{
+    /* border:white 3px solid; */
+}
+#todo-input{
+    width:250px;
+    height:20px;
+    border-radius: 13px;
+    border:white 3px solid;
 }

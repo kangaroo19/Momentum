@@ -1,11 +1,12 @@
 #clock{
     text-align: center;
-    font-size: 5rem;
+    font-size: 100px;
     /* animation: flicker 1.5s infinite alternate; */
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin-top: 200px;
+    /* font-family: 'Bebas Neue', cursive; */
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
   
 /* @keyframes flicker { */
@@ -16,7 +17,7 @@
         0 0 4px #fff,
         0 0 11px #fff,
         0 0 19px #fff,
-        0 0 40px rgb(98, 0, 255),
+        0 0 40px rgb(189, 79, 152),
         0 0 80px rgb(121, 31, 182),
         0 0 90px rgb(155, 32, 192),
         0 0 100px rgb(194, 37, 173),
