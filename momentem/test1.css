@@ -1,52 +1,7 @@
-body{
-    background-color: black;
-}
-#neon{
-    text-align: center;
-    font-size: 5rem;
-    animation: flicker 1.5s infinite alternate;
-    color: #fff;
-  }
 #horizon{
-    overflow: hidden;
-    z-index: 1;
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    height: 100%;
-    white-space: nowrap;
-    color:white;
-    transform: scale(2);
-    transition: all 1s ease;
-    animation: scrollText 1s infinite linear;
+    width:500px;
+    border:black solid 1px; 
+    font-size: 3rem;
+    color:black;
+    
 }
-@keyframes scrollText {
-    from   { transform: translateX(0%); }
-    to { transform: translateX(-50%); }
-  }
-/* @keyframes flicker { */
-    
-    0%, 18%, 22%, 25%, 53%, 57%, 100% {
-  
-        text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px rgb(98, 0, 255),
-        0 0 80px rgb(121, 31, 182),
-        0 0 90px rgb(155, 32, 192),
-        0 0 100px rgb(194, 37, 173),
-        0 0 150px rgb(167, 31, 167);
-    
-    }
-    
-    20%, 24%, 55% {        
-        text-shadow: none;
-    }    
-  }
-  
-
