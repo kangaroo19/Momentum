@@ -6,6 +6,8 @@ const logoutButton=document.querySelector("#logout-button");
 const logoutForm=document.querySelector("#logout-form");
 
 const savedName=localStorage.getItem("username");
+const date=new Date();
+const hours=date.getHours();
 
 function loginButtonClick(event){
    event.preventDefault();
@@ -13,7 +15,8 @@ function loginButtonClick(event){
    const typedName=loginInput.value;
    localStorage.setItem("username",typedName);
    greeting.classList.remove("hidden");
-   greeting.innerText="Hello "+typedName;
+   //greeting.innerText="Hello "+typedName;
+   selectHours(hours,typedName);
    logoutButton.classList.remove("hidden");
 }
 
@@ -28,7 +31,8 @@ function logoutButtonClick(event){
 if(savedName!=null){ //저장된 이름 있을떄
    loginForm.classList.add("hidden");
    greeting.classList.remove("hidden");
-   greeting.innerText="Hello "+savedName;
+   //greeting.innerText="Hello "+savedName;
+   selectHours(hours,savedName);
    logoutButton.classList.remove("hidden");
 }
 else{
@@ -36,3 +40,12 @@ else{
 }
 
 logoutForm.addEventListener("submit",logoutButtonClick);
+
+function selectHours(hours,typedName){ //#greeting에 시간대별 나오는 문구 다르게하는 함수
+   if(4<=hours && hours<=11)
+      greeting.innerText="Good Morning "+typedName;
+   else if(12<=hours && hours<=6)
+      greeting.innerText="Good Afternoon "+typedName;
+   else 
+      greeting.innerText="Good Night "+typedName;
+}
