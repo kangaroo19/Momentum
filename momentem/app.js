@@ -4,8 +4,8 @@ const loginButton=document.querySelector("#login-button");
 const greeting=document.querySelector("#greeting");
 const logoutButton=document.querySelector("#logout-button");
 const logoutForm=document.querySelector("#logout-form");
-
 const savedName=localStorage.getItem("username");
+
 const date=new Date();
 const hours=date.getHours();
 
@@ -40,6 +40,8 @@ else{
 }
 
 logoutForm.addEventListener("submit",logoutButtonClick);
+
+
 
 function selectHours(hours,typedName){ //#greeting에 시간대별 나오는 문구 다르게하는 함수
    if(4<=hours && hours<=11)

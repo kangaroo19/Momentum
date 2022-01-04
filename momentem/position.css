@@ -31,3 +31,8 @@ ul{
     width:100%;
     text-align: center;
 }
+#musicbutton{
+    position: fixed;
+    bottom:10px;
+    width: 100px;
+}
