@@ -46,7 +46,7 @@ logoutForm.addEventListener("submit",logoutButtonClick);
 function selectHours(hours,typedName){ //#greeting에 시간대별 나오는 문구 다르게하는 함수
    if(4<=hours && hours<=11)
       greeting.innerText="Good Morning "+typedName;
-   else if(12<=hours && hours<=6)
+   else if(12<=hours && hours<=18)
       greeting.innerText="Good Afternoon "+typedName;
    else 
       greeting.innerText="Good Night "+typedName;

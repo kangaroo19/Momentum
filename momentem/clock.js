@@ -7,7 +7,6 @@ function getClock(){
     const minutes = String(date.getMinutes()).padStart(2, "0");//padstart는 2칸중 앞에 0채워넣는다는 뜻
     const seconds = String(date.getSeconds()).padStart(2, "0");
     clock.innerText = `${hours}:${minutes}:${seconds}`;
-
 }
 getClock();
 setInterval(getClock,1000);
