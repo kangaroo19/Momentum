@@ -15,10 +15,15 @@
     width:66px;
     height:27px;
     border-radius: 5px;
-    font-family: 'NanumSquareRound';
+    font-size:16px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Share Tech Mono', monospace;
 }
 #greeting{
     color:white;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Share Tech Mono', monospace;
+    
 }
 
 #login-button:hover{

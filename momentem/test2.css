@@ -5,3 +5,11 @@
 .paint{
   background-color: gray;
 }
+
+#retro{
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Share Tech Mono', monospace;
+}
+
