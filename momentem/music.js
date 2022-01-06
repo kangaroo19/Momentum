@@ -1,22 +1,15 @@
 const musicButton=document.querySelector("#musicbutton");
 const audio=new Audio("123.mp3");
 
-function playMusic(){
-    musicButton.value="Stop";
+function music(){
+    if(musicButton.value=="Play"){
+        audio.play();
+        musicButton.value="Stop";
+    }
+    else{
+        audio.pause();
+        musicButton.value="Play";
+    }
 }
 
-function stopMusic(){
-    musicButton.value="Play";
-}
-
-if(musicButton.value=="Play"){
-    musicButton.addEventListener("click",playMusic);
-}
-
-else{
-    musicButton.addEventListener("click",stopMusic);
-}
-
-
-
-
+musicButton.addEventListener("click",music);

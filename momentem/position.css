@@ -12,8 +12,9 @@
     margin-bottom: 0;
 }
 #weather{
-    text-align: center;
-    font-size:2rem;
+    color:white;
+    position: absolute;
+    top:14px;
 }
 #todo-input{
     display: block;

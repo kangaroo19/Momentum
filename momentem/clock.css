@@ -1,12 +1,14 @@
 #clock{
     text-align: center;
-    font-size: 100px;
+    font-size: 6rem;
     /* animation: flicker 1.5s infinite alternate; */
     color: rgb(255, 255, 255);
     margin-top: 200px;
     /* font-family: 'Bebas Neue', cursive; */
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Zen Dots', cursive;
+
+    
+    
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
