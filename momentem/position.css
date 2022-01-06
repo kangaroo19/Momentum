@@ -3,9 +3,6 @@
 .hidden{
     display: none;
 }
-#todo-input{
-    width:185px;
-}
 #clock{
     font-size:5rem;
     text-align: center;
@@ -17,9 +14,14 @@
     top:14px;
 }
 #todo-input{
+    width:185px;
     display: block;
     margin:0 auto;
     align-items: center;
+}
+#todo-list{
+    margin:0 auto;
+    margin-top:10px;
 }
 ul{
     width:200px;

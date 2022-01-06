@@ -1,4 +1,6 @@
 #todo-list{
+    
+    width:300px;
     color:white;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Share Tech Mono', monospace;
@@ -12,4 +14,8 @@ li{
     height:20px;
     border-radius: 13px;
     border:white 3px solid;
+}
+button{
+    
+    font-family: 'Press Start 2P', cursive;
 }
