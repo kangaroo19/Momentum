@@ -20,14 +20,10 @@
     align-items: center;
 }
 #todo-list{
-    margin:0 auto;
+    margin:auto;
     margin-top:10px;
 }
-ul{
-    width:200px;
-    margin-left:auto;
-    margin-right:auto;
-}
+
 #quote{
     position: fixed;
     bottom:10px;

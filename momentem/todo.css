@@ -1,16 +1,12 @@
 #todo-list{
-    
     width:300px;
     color:white;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Share Tech Mono', monospace;
  
 }
-li{
-    /* border:white 3px solid; */
-}
 #todo-input{
-    width:250px;
+    width:295px;
     height:20px;
     border-radius: 13px;
     border:white 3px solid;
