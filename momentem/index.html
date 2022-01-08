@@ -5,6 +5,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Momentum</title>
     <link rel="stylesheet" href="position.css">
     <link rel="stylesheet" href="app.css">
@@ -20,11 +21,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&family=Share+Tech+Mono&family=Wallpoet&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&family=Share+Tech+Mono&family=Wallpoet&family=Zen+Dots&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="weather">
@@ -35,7 +36,8 @@
         <input id="login-input" 
         type="text"
         required
-        placeholder="type your name">
+        placeholder="type your name"
+        autocomplete="off">
         <input id="login-button" type="submit" value="Login">
     </form>
     <form id="logout-form">
@@ -50,7 +52,7 @@
     <!-- TO-DO List -->
     <div id="list">
         <form id="todo-form">
-            <input id="todo-input" type="text" placeholder="Write a TO DO and press enter">
+            <input id="todo-input" type="text" placeholder="Write a TO DO and press enter" autofocus autocomplete="off">
         </form>
         <ul id="todo-list"></ul>
     </div>
